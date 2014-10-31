@@ -1,8 +1,5 @@
 Package.describe({
-  name: "schernikov:x-editable-bootstrap",
   summary: "Latest version of X-Editable for Bootstrap with wysihtml5 rich text editor",
-  version: "1.5.2_1",
-  git: "https://github.com/schernikov/meteor-x-editable-bootstrap.git"
 });
 
 Package.on_use(function (api){
