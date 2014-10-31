@@ -13,7 +13,7 @@ Package.on_use(function (api){
   // This depends on BS3 JS libraries, including popovers.
   // Need to make sure bootstrap 3 is loaded first, or errors will ensue
   // https://github.com/vitalets/x-editable/issues/395
-  api.use("mizzao:bootstrap-3@3.2.0_1");
+  api.use("nemo64:bootstrap");
 
   //x-editable
   api.addFiles('lib/bootstrap-editable/css/bootstrap-editable.css', 'client');
